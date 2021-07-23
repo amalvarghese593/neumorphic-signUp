@@ -1,5 +1,5 @@
 <?php
 
-include_once("registration-form.html");
+include_once("index.html");
 
 ?>
