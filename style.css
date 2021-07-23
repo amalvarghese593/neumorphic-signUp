@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --bg-primary: #d82028;
+  --bg-secondary: #373656;
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secondary: "Roboto", sans-serif;
+  --color-white: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-family-primary);
+  margin-bottom: 0px;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  font-family: var(--font-family-secondary);
+  margin: 0px;
+  line-height: 24px;
+}
+
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+  font-family: var(--font-family-secondary);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.register-title {
+  text-align: center;
+  padding: 30px;
+}
+.register-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+.register-container button {
+  background-color: var(--bg-secondary);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 9rem;
+  height: 2.4rem;
+  font-size: 16px;
+  font-family: var(--font-family-primary);
+  transition: 0.5s;
+}
+.register-container button:hover {
+  cursor: pointer;
+  color: var(--bg-secondary);
+  background-color: #fff;
+  transition: 0.4s ease-out;
+  border: 2px solid var(--bg-secondary);
+}
+.register-container button:active {
+  transition: 0.1s;
+}
+.register-flex-items {
+}
+.register-close-btn {
+  width: 100%;
+  padding: 50px;
+  text-align: end;
+}
+.register-close-btn button {
+  width: 100px;
+}
+@media all and (max-width: 600px) {
+  .register-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 220px) and (max-width: 700px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 14px;
+    padding: 4px 0px;
+  }
+}
